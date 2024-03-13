@@ -1,11 +1,14 @@
-#Calcular el maximo de dos numeros
+#Calcular el maximo de dos numero
 
-a = float(input('Enter a number: '))
-b = float(input('Enter a second number: '))
+a = float(input("Ingrese un numero: "))
+b = float(input("Ingrese otro numero: "))
 
 def maximo(a, b):
-    return(max)
+    if a > b:
+        return a
+    else:
+        return b
+    
+num_max = maximo(a, b)
 
-resultado = max(a, b)
-
-print(f'El maximo entre los dos numeros es: {resultado}')
+print("El maximo entre los dos numero: ", num_max)

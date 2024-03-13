@@ -1,0 +1,14 @@
+
+def promedio(Lista_numeros):
+    suma = 0
+    ctr = 0
+    for valor in Lista_numeros:
+        suma = suma + valor# suma += valor
+        ctr = ctr + 1      #ctr++
+    return(suma / ctr)
+
+Lista_numeros = [90, 80, 95, 89]
+prom = promedio
+
+print(Lista_numeros)
+print(f'Promedio de la lista: ', prom)
